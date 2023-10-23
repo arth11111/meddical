@@ -88,6 +88,10 @@ header>.top-header>.info>div>.text>span {
     background-color: var(--Primary);
 }
 
+.bottom-header h1{
+    display: none;
+}
+
 .bottom-header>.container {
     display: flex;
     justify-content: space-between;
@@ -130,6 +134,10 @@ header>.top-header>.info>div>.text>span {
     border-radius: 30px;
     border: none;
     font-size: 20px;
+}
+
+.bottom-header>.container>div>button+svg{
+    display: none;
 }
 
 /* 2 ----- */
@@ -1157,6 +1165,31 @@ footer .footer-bottom>.social-icons{
 
     .contact>.boxes>.box {
         padding: 20px;
+    }
+
+    .bottom-header h1{
+        display: block;
+        font-size: 25px;
+    }
+
+    .bottom-header>.container>ul >li{
+        display: none;
+    }
+
+    header{
+        position: relative;
+    }
+
+    header>.top-header>h1{
+        display: none;
+    }
+
+    .bottom-header>.container>div>button{
+        display: none;
+    }
+
+    .bottom-header>.container>div>button+svg{
+        display: block;
     }
 }
 
